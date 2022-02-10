@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPPlus.DockerSamples.Alpine", "EPPlus.DockerSamples.Alpine\EPPlus.DockerSamples.Alpine.csproj", "{0CA2ED03-8197-486C-A85E-AA30D9DCF85A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPPlus.DockerSamples.Windows.Nano.Server", "EPPlus.DockerSamples.Windows.Nano.Server\EPPlus.DockerSamples.Windows.Nano.Server.csproj", "{36ADCE1F-CCFC-4C73-8688-BC8DEF336DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CA2ED03-8197-486C-A85E-AA30D9DCF85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA2ED03-8197-486C-A85E-AA30D9DCF85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA2ED03-8197-486C-A85E-AA30D9DCF85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA2ED03-8197-486C-A85E-AA30D9DCF85A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36ADCE1F-CCFC-4C73-8688-BC8DEF336DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36ADCE1F-CCFC-4C73-8688-BC8DEF336DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36ADCE1F-CCFC-4C73-8688-BC8DEF336DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36ADCE1F-CCFC-4C73-8688-BC8DEF336DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E80EEB09-9AB4-4B24-A710-ACD365E55446}
+	EndGlobalSection
+EndGlobal
