@@ -1,11 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31912.275
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPPlus.DockerSamples.Alpine", "EPPlus.DockerSamples.Alpine\EPPlus.DockerSamples.Alpine.csproj", "{0CA2ED03-8197-486C-A85E-AA30D9DCF85A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPPlus.DockerSamples.Windows.Nano.Server", "EPPlus.DockerSamples.Windows.Nano.Server\EPPlus.DockerSamples.Windows.Nano.Server.csproj", "{36ADCE1F-CCFC-4C73-8688-BC8DEF336DAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPPlus.DockerSamples.Debian", "EPPlus.DockerSamples.Debian\EPPlus.DockerSamples.Debian.csproj", "{20BC5837-A7E7-4F94-94EF-655DDA4737E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPPlus.DockerSamples.Ubuntu", "EPPlus.DockerSamples.Ubuntu\EPPlus.DockerSamples.Ubuntu.csproj", "{44E4E67C-183D-45D7-B042-B10DF6E90BB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3793ACB-CDF4-409E-87A1-9112BCEBCD5F}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +30,14 @@ Global
 		{36ADCE1F-CCFC-4C73-8688-BC8DEF336DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36ADCE1F-CCFC-4C73-8688-BC8DEF336DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36ADCE1F-CCFC-4C73-8688-BC8DEF336DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BC5837-A7E7-4F94-94EF-655DDA4737E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BC5837-A7E7-4F94-94EF-655DDA4737E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BC5837-A7E7-4F94-94EF-655DDA4737E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BC5837-A7E7-4F94-94EF-655DDA4737E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E4E67C-183D-45D7-B042-B10DF6E90BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E4E67C-183D-45D7-B042-B10DF6E90BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E4E67C-183D-45D7-B042-B10DF6E90BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E4E67C-183D-45D7-B042-B10DF6E90BB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

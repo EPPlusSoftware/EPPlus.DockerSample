@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@using System.Collections
+@{
+    ViewData["Title"] = "Home page";
+    string envs="";
+    foreach(DictionaryEntry p in System.Environment.GetEnvironmentVariables(EnvironmentVariableTarget.Machine))
+    {
+        envs += p.Key + ":" + p.Value + ", \r\n";
+    }
+    foreach(DictionaryEntry p in System.Environment.GetEnvironmentVariables(EnvironmentVariableTarget.User))
+    {
+        envs += p.Key + ":" + p.Value + ", \r\n";
+    }
+    foreach(DictionaryEntry p in System.Environment.GetEnvironmentVariables(EnvironmentVariableTarget.Process))
+    {
+        envs += p.Key + ":" + p.Value + ", \r\n";
+    }
+    envs = $"  Version {System.Environment.Version} {System.Environment.Version.Major}.{System.Environment.Version.Minor}.{System.Environment.Version.Revision}.{System.Environment.Version.Build} {System.Environment.Version.MajorRevision}.{System.Environment.Version.MinorRevision}";
+}
+
+<div class="text-center">
+    <h1 class="display-4">EPPlus Samples</h1>
+    <div>
+    <table>
+    <thead><tr><th style="width:600px"></><th style="width:300px"></th></tr></thead>    
+    <tr><td>Platform</td><td>@System.Environment.OSVersion.Platform</td></tr>
+    <tr><td>Version</td><td>@System.Environment.OSVersion.Version</td></tr>
+    <tr><td>VersionString</td><td>@System.Environment.OSVersion.VersionString</td></tr>
+    <tr><td>Env Variables</td><td>@envs</td></tr>
+    <tr><td>ServicePack</td><td>@System.Environment.OSVersion.ServicePack</td></tr>
+    </table>    
+    </div>
+    <form method="post">
+    <input type="submit" value="Get Report" asp-page-handler="CreateReport">
+    </form>    
+</div>

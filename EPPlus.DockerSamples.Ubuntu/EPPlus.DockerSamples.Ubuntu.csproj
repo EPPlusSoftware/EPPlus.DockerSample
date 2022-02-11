@@ -5,14 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>500af4e2-5faa-4813-9cb5-cdb8b5b14bbb</UserSecretsId>
-    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="resources\logo.png" />
-    <None Remove="resources\office.jpg" />
-  </ItemGroup>
-
+  
   <ItemGroup>
     <Content Include="resources\logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
