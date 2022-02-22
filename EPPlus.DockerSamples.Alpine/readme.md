@@ -1,4 +1,4 @@
-# Docker sample - Linux-Alpine 
+# Docker sample - Alpine 
 
 To run this sample you need Docker for Windows and Container Development Tools in Visual Studio. https://docs.docker.com/desktop/windows/install/  
 Docker must be set to Linux Container -> Right click the docker icon in the system tray and click "Switch to Linux containers.", if it's set up for Windows.
