@@ -8,7 +8,7 @@ Images used ASP.Net - .NET 6 :
 ### Linux
 * Alpine 3.14 - amd64
 * Debian - Bullseye Slim - amd64
-* Ubunto - Focal - amd64
+* Ubuntu - Focal - amd64
 
 ### Windows
 * Windows Nano Server - 20H2
